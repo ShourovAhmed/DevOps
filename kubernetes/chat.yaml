@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: IfNotPresent
-        image: shourovjenkins/shourov_jenkins_repo:latest
+        image: shourovjenkins/shourov_jenkins_repo:chat
         ports:
           - containerPort: 3000
             name: http-web-svc

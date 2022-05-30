@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: shourovjenkins/shourov_jenkins_repo:latest
+        image: shourovjenkins/shourov_jenkins_repo:auth
         ports:
           - containerPort: 3000
             name: http-web-svc
